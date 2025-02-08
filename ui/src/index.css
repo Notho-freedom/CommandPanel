@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* index.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+.terminal-input {
+    flex: 1;
+    min-width: 0;
+}
+.text-gold {
+    color: #fffb00;
+}
+.ubt-root {
+    color: #99d14c;
+}
+.hist {
+    left: 0%;
+    margin-inline-start: 0%;
+    align-content: flex-start;
+}
